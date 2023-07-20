@@ -9,3 +9,21 @@ if(age >= 65) {
 } else {
     "The value of the age variable is not numerical"
 }
+
+
+var day = "Maandamanz";
+
+switch(day) {
+    case "Monday":
+    case "Tuesday":
+    case "Wednesday":
+    case "Thursday":
+    case "Friday":
+    case "Saturday":
+    case "Sunday":
+        console.log("Do something")
+        break;
+    default:
+        console.log("There is no such day")
+        break;
+}
